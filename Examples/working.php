@@ -5,7 +5,7 @@
 	include_once '../Includes/login.php';
 	include_once '../changeRank.php';
 	libxml_use_internal_errors(true); // Hide DOMDocument warnings (though your errors should be turned off anyways)
-	$group = 18; // Change this to your group ID
+	$group = 3019208; // Change this to your group ID
 	$cookieTime = '../Private/cookieTime.txt';
 	if (!file_exists($cookieTime)) {
 		file_put_contents($cookieTime,0);
